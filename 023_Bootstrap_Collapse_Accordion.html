@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+			
+			<!-- CSS Files --> 
+
+			<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+			<link rel="stylesheet" href="bootstrap/css/mdb.css">
+			<link rel="stylesheet" href="bootstrap/css/style.css">
+			<link rel="stylesheet" href="bootstrap/css/fontawesome_5.8.1.css">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+		<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">--> 
+ 
+		
+	<title>Bootstrap Collapse and Accordion</title>
+</head>
+<body>
+			<!-- Javascript Files-->
+
+		<script href="bootstrap/js/bootstrap.js"></script>
+		<script href="bootstrap/js/jquery.js"></script>
+		<script href="bootstrap/js/mdb.js"></script>
+		<script href="bootstrap/js/popper.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+		<nav class="navbar navbar-expand-xl navbar-dark bg-dark	">
+			<a class="navbar-brand"href="#">Bootstrap Collapse and Accordion  </a>
+		</nav>
+			
+			<!-- **********************START HERE**************************-->
+					
+					<!-- Collapse--> 
+
+					<div class="container mt-5">
+							
+						<button class="btn btn-info" data-toggle="collapse" data-target="#blue-card" >
+							Click Here 
+							</button>
+
+							<div class="collapse" id="blue-card">
+								<div class="card">
+									<div class="card-body bg-success">
+										<h2>Welcome to Collapse Concept in Bootstrap</h2>
+										<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis perferendis laudantium nam minus, error cum doloribus eaque corrupti. Animi esse qui, dolor quo, dicta autem ex laborum, nemo ullam ea cum optio quas fugit quibusdam temporibus illum hic voluptatibus facere debitis consequatur aliquam in? Minima aperiam neque repellendus iste soluta.</p>
+									</div>
+								</div>
+							</div>
+									
+									<!-- Accordion--> 
+
+
+						<div class=" mt-5 accordion" id="question_acc">
+							<div class="card">
+								<div class="card-header bg-warning" data-toggle="collapse" data-target="#que1">
+									<h2>What is Bootstrap? </h2>
+								</div>
+							
+							<div class="collapse" id="que1" data-parent="#question_acc">
+								<div class="card-body bg-secondary">
+									<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed omnis similique qui a quidem ipsam impedit accusantium fugit modi maiores dicta, voluptatum incidunt assumenda officiis doloribus tenetur magnam sint porro, quod nostrum asperiores! Minus optio facilis sint modi minima dicta id, illum tempora! Cumque natus sequi, doloribus enim nulla tempore.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class=" mt-2 accordion" id="question_acc">
+							<div class="card">
+								<div class="card-header bg-info" data-toggle="collapse" data-target="#que2">
+									<h2>What is Material Design Bootstrap? </h2>
+								</div>
+							
+							<div class="collapse" id="que2" data-parent="#question_acc">
+								<div class="card-body bg-success">
+									<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed omnis similique qui a quidem ipsam impedit accusantium fugit modi maiores dicta, voluptatum incidunt assumenda officiis doloribus tenetur magnam sint porro, quod nostrum asperiores! Minus optio facilis sint modi minima dicta id, illum tempora! Cumque natus sequi, doloribus enim nulla tempore.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class=" mt-2 accordion" id="question_acc">
+							<div class="card">
+								<div class="card-header bg-danger" data-toggle="collapse" data-target="#que3">
+									<h2>What is Bootstrap Current version? </h2>
+								</div>
+							
+							<div class="collapse" id="que3" data-parent="#question_acc">
+								<div class="card-body bg-primary">
+									<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed omnis similique qui a quidem ipsam impedit accusantium fugit modi maiores dicta, voluptatum incidunt assumenda officiis doloribus tenetur magnam sint porro, quod nostrum asperiores! Minus optio facilis sint modi minima dicta id, illum tempora! Cumque natus sequi, doloribus enim nulla tempore.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+	
+</body>
+</html>
+
+				
+			<!-- **********************END HERE**************************-->
+		
